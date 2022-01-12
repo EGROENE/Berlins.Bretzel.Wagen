@@ -1,0 +1,384 @@
+/* START STYLING FOR index.html */
+.index-items-container {
+    display: grid;
+    row-gap: 25px;
+    background-color: black;
+}
+
+.index-item-text {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid white;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    width: 50%;
+    line-height: 35px;
+}
+
+.index-item-text header {
+    font-size: larger;
+    letter-spacing: 5px;
+}
+
+.index-item-text a button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: x-large;
+    text-transform: lowercase;
+    width: 100%;
+}
+
+.index-item-text a button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.index-item1,
+.index-item2,
+.index-item3,
+.index-item4,
+.index-item5,
+.index-item6 {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.index-item1 {
+    background: url(../assets/images/pp2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.index-item2 {
+    background: url(../assets/images/emp.pretzel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.index-item3 {
+    background: url(../assets/images/salads.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.index-item4 {
+    background: url(../assets/images/drinks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.index-item5 {
+    background: url(../assets/images/desserts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.index-item6 {
+    background: url(../assets/images/store.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* END STYLING FOR index.html */
+
+/* START STYLING FOR menu.html */
+.sticky-header {
+    background-color: var(--forest-green);
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticky-header header {
+    font-size: xx-large;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+}
+
+.menu-nav {
+    background-color: black;
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    color: var(--red);
+    font-size: xx-large;
+    font-family: 'Autobahn', sans-serif;
+}
+
+.menu-nav a:hover {
+    color: var(--gold);
+}
+
+.menu-group {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.menu-group-header {
+    border: 2px dashed white;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+.menu-item header {
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.menu-items-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.menu-item img {
+    margin: 10px 0;
+    width: 200px;
+    max-width: 200px;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: x-large;
+}
+
+.extra-info {
+    margin-top: 10px;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.extra-info p {
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: medium;
+    color: black;
+    font-weight: 800;
+    align-items: center;
+    display: flex;
+}
+
+.vegetarian {
+    background-color: var(--vegetarian);
+}
+
+.gluten-free {
+    background-color: var(--gluten-free);
+}
+
+.vegan {
+    background-color: var(--vegan);
+}
+
+.organic {
+    background-color: var(--organic);
+}
+/* END STYLING FOR menu.html */
+
+/* START STYLING FOR events.html */
+.events-sect1-grid {
+    display: grid;
+    background-color: var(--black-gradient);
+    color: white;
+    padding: 20px;
+}
+
+.events-sect1-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    font-size: x-large;
+    line-height: 35px;
+}
+
+.events-sect1-item header {
+    font-size: xx-large;
+}
+
+.events-sect1-item img {
+    border: 2px solid white;
+    width: 90%;
+    max-width: 100%;
+}
+
+.img {grid-area: img;}
+.text {grid-area: txt;}
+
+.events-sect1-item.img-right {
+    grid-template-areas: "txt img";
+    text-align: right;
+}
+/* END STYLING FOR events.html */
+
+/* START STYLING FOR contact.html */
+.contact {
+    color: white;
+    background-color: var(--black-gradient);
+    font-size: x-large;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+}
+
+.contact-sect1 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-sect2 {
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+    border-left: 1px dashed white;
+}
+
+.contact-info p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.contact-socials {
+    margin-top: 10px;
+}
+
+.contact-socials a {
+    margin-right: 20px;
+    color: var(--gold);
+}
+
+.contact-socials a:hover {
+    color: var(--red);
+}
+
+.contact-map {
+    margin-top: 20px;
+}
+
+.contact-map p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-map iframe {
+    margin-top: 10px;
+    height: 300px;
+    width: 400px;
+}
+
+.contact-form {
+    width: 75%;
+    display: grid;
+    row-gap: 20px;
+}
+
+.contact-form div {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.contact-form div input,
+.contact-form div select {
+    padding: 5px;
+}
+
+.submit-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button-container button {
+    width: 50%;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.submit-button-container button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/* END STYLING FOR contact.html */
+
+/* START STYLING FOR about.html */
+#graffiti-wall {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    z-index: -100;
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.about-sect1 {
+    background-color: var(--black-gradient);
+    color: white;
+    padding: 50px 100px 200px 100px;
+    text-align: center;
+}
+
+.about-sect1 header,
+.about-sect1 p {
+    background-color: var(--black-gradient);
+    border-radius: 20px;
+}
+
+.about-sect1 header {
+    font-size: xxx-large;
+    display: inline-block;
+    padding: 10px;
+}
+
+.about-sect1 p {
+    font-size: x-large;
+    line-height: 40px;
+    padding: 20px;
+}
+/* END STYLING FOR about.html */

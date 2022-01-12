@@ -1,0 +1,714 @@
+/* START 2560px STYLING */
+@media (min-width: 2560px) {
+    /* START DEFAULT STYLING */
+    .header-section {
+        background-color: var(--forest-green);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .header-section header {
+        font-size: 75px;
+    }
+
+    .header-section img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .nav-menu-header {
+        width: 85%;
+    }
+
+    .nav-menu-header a {
+        width: 340px;
+        font-size: 90px;
+    }
+
+    .back-to-top {
+        font-size: xxx-large;
+    }
+
+    footer header {
+        font-size: 80px;
+    }
+    
+    .footer-socials-row a {
+        padding: 79px;
+        font-size: 55px;
+    }
+
+    .footer-socials-row a img {
+        width: 70px;
+        height: 70px;
+    }
+
+    footer .address-phone {
+        margin-top: 65px;
+    }
+
+    .address-phone p {
+        font-size: 50px;
+    }
+
+    .copyright p {
+        font-size: 40px;
+    }
+    /* END DEFAULT STYLING */
+
+    /* START STYLING FOR index.html */
+    .index-item-text {
+        padding: 100px;
+    }
+
+    .index-item-text header {
+        font-size: 80px;
+    }
+
+    .index-item-text p {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .index-item-text a button {
+        font-size: 60px;
+    }
+    /* END STYLING FOR index.html */
+
+    /* START STYLING FOR menu.html */
+    .sticky-header header {
+        font-size: 75px;
+    }
+
+    .menu-nav {
+        background-color: black;
+        margin-top: 10px;
+        width: 97%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-nav a {
+        font-size: 76px;
+    }
+
+    .menu-group-header {
+        font-size: 100px;
+    }
+
+    .menu-item header {
+        font-size: 80px;
+    }
+
+    .menu-item img {
+        margin: 10px 0;
+        width: 500px;
+        max-width: 500px;
+    }
+
+    .menu-item p {
+        font-size: 55px;
+    }
+    /* END STYLING FOR menu.html */
+
+    /* START STYLING FOR events.html */
+    .events-sect1-grid {
+        padding: 65px;
+    }
+
+    .events-sect1-item header {
+        font-size: 100px;
+    }
+
+    .events-sect1-item p {
+        font-size: 60px;
+        line-height: 80px;    
+    }
+    /* END STYLING FOR events.html */
+
+    /* START STYLING FOR .contact.html */
+    .contact {
+        font-size: 70px;
+    }
+
+    .contact-form div input, 
+    .contact-form div select,
+    .contact-form textarea {
+        font-size: 40px;
+    }
+
+    .submit-button-container button {
+        width: 50%;
+        padding: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: xxx-large;
+    }
+
+    .contact-map iframe {
+        margin-top: 10px;
+        height: 450px;
+        width: 730px;
+    }
+    /* END STYLING FOR .contact.html */
+
+    /* START STYLING FOR about.html */
+    .about-sect1 {
+        padding: 50px 200px 200px 200px;
+    }
+
+    .about-sect1 header {
+        font-size: 90px;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .about-sect1 p {
+        font-size: 63px;
+        line-height: 82px;
+    }
+    /* END STYLING FOR about.html */
+}
+/* END 2560px STYLING */
+
+/* START 1440px STYLING */
+@media (min-width: 1440px) and (max-width: 2559px) {
+    /* START DEFAULT STYLING  */
+    .header-section img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .nav-menu-header {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-menu-header a {
+        padding: 20px 25px;
+        width: 180px;
+        font-size: 46px;
+    }
+
+    .header-section header {
+        font-size: xxx-large;
+    }
+
+    footer header {
+        font-size: 50px;
+    }
+
+    .footer-socials-row a {
+        padding: 50px;
+        width: 77px;
+        height: 77px;
+        color: black;
+        font-size: 40px;
+    }
+
+    .footer-socials-row a img {
+        width: 45px;
+        height: 45px;
+    }
+
+    footer .address-phone {
+        margin-top: 40px;
+    }
+
+    .address-phone p {
+        font-size: xx-large;
+    }
+
+    .copyright p {
+        font-size: 30px;
+    }
+    /* END DEFAULT STYLING */
+
+    /* START STYLING FOR index.html */
+    .index-item-text header {
+        font-size: xxx-large;
+    }
+
+    .index-item-text p {
+        font-size: 35px;
+    }
+
+    .index-item-text a button {
+        font-size: xx-large;
+    }
+    /* END STYLING FOR index.html */
+
+    /* START STYLING FOR menu.html */
+    .sticky-header header {
+        font-size: xxx-large;
+    }
+
+    .menu-nav {
+        width: 95%;
+    }
+
+    .menu-nav a {
+        font-size: 44px;
+    }
+
+    .menu-group-header {
+        font-size: xxx-large;
+    }
+
+    .menu-item header {
+        font-size: xxx-large;
+    }
+
+    .menu-item img {
+        width: 350px;
+        max-width: 350px;
+    }
+
+    .menu-item p {
+        font-size: 36px;
+    }
+
+    .extra-info p {
+        padding: 5px 8px;
+        font-size: xx-large;
+    }
+    /* END STYLING FOR menu.html */
+
+    /* START STYLING FOR events.html */
+    .events-sect1-item {
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    .events-sect1-item header {
+        font-size: xxx-large;
+    }
+    /* END STYLING FOR events.html */
+
+    /* START STYLING FOR contact.html */
+    .contact {
+        font-size: xxx-large;
+    }
+
+    .contact-form div input, 
+    .contact-form div select,
+    .contact-form textarea {
+        font-size: 30px;
+    }
+
+    .submit-button-container button {
+        width: 50%;
+        padding: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .contact-map iframe {
+        margin-top: 10px;
+        height: 350px;
+        width: 560px;
+    }
+    /* END STYLING FOR contact.html */
+
+    /* START STYLING FOR about.html */
+    .about-sect1 header {
+        font-size: 80px;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .about-sect1 p {
+        font-size: 50px;
+        line-height: 65px;
+        padding: 20px;
+    }
+    /* END STYLING FOR about.html */
+}
+/* END 1440px STYLING */
+
+/* START 768px STYLING */
+@media all and (max-width: 768px) {
+    /* START DEFAULT STYLING */
+    .header-section {
+        width: 768px;
+        max-width: 100%;
+    }
+    
+    .nav-menu-header {
+        width: 90%;
+    }
+
+    .nav-menu-header a {
+        font-size: 23px;
+        margin-right: 10px;
+        padding: 5px 10px;
+    }
+
+    .nav-menu-header a:last-child {
+        margin-right: 0;
+    }
+
+    .menu-nav a {
+        color: var(--red);
+        font-size: 25px;
+        font-family: 'Autobahn', sans-serif;
+        margin-bottom: 10px;
+    }
+    /* END DEFAULT STYLING */
+
+    /* START STYLING FOR menu.html */
+    .menu-items-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* END STYLING FOR menu.html */
+
+    /* START STYLING FOR events.html */
+    .events-sect1-item img {
+        margin-bottom: 20px;
+    }
+
+    .events-sect1-item header {
+        font-size: 50px;
+    }
+
+    .events-sect1-item,
+    .events-sect1-item.img-right {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-top: 2px dashed white;
+        border-bottom: 2px dashed white;
+        padding: 20px;
+    }
+    /* END STYLING FOR events.html */
+
+    /* START STYLING FOR contact.html */
+    .contact {
+        padding: 20px;
+    }
+
+    .contact-map iframe {
+        height: 230px;
+        width: 300px;
+    }
+    /* END STYLING FOR contact.html */
+
+    /* START STYLING FOR about.html */
+    .about-sect1 {
+        padding: 50px 50px 100px 50px;
+    }
+    /* END STYLING FOR about.html */
+}
+/* END 768px STYLING */
+
+/* START 425px STYLING */
+@media all and (max-width: 425px) {
+    /* START DEFAULT STYLING */
+    .header-section img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .header-section header, 
+    .sticky-header header {
+        font-size: 60px;
+    }
+
+    .menu-nav a {
+        font-size: xxx-large;
+    }
+    
+    footer header {
+        font-size: 40px;
+    }
+
+    .footer-socials-row {
+        width: 100%;
+    }
+
+    .footer-socials-row a {
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    footer .address-phone {
+        margin-top: 24px;
+        font-size: x-large;
+    }
+
+    footer .copyright {
+        font-size: x-large;
+    }
+    /*END DEFAULT STYLING */
+
+    /* START STYLING FOR index.html */
+    .index-item-text {
+        padding: 25px;
+        font-size: xxx-large;
+        width: 70%;
+        line-height: 55px;
+    }
+
+    .index-item-text a button {
+        font-size: xx-large;
+    }
+    /* END STYLING FOR index.html */
+
+    /* START STYLING FOR menu.html */
+    .sticky-header {
+        color: white;
+        position: static;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-group {
+        align-items: center;
+    }
+
+    .menu-group-header {
+        font-size: xxx-large;
+    }
+
+    .menu-item p {
+        margin: 0;
+        font-size: xx-large;
+    }
+
+    .extra-info {
+        margin-top: 10px;
+        text-transform: lowercase;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .extra-info p {
+        margin-bottom: 10px;
+    }
+    /* END STYLING FOR menu.html */
+
+    /* START STYLING FOR events.html */
+    .events-sect1-item header {
+        font-size: 80px;
+    }
+
+    .events-sect1-item p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .events-sect1-item img {
+        margin-bottom: 25px;
+    }
+    /* END STYLING FOR events.html */
+
+    /* START STYLING FOR contact.html */
+
+    .contact {
+        font-size: xx-large;
+    }
+
+    .nav-menu-header a {
+        background-color: var(--red);
+        color: var(--gold);
+        padding: 5px 10px;
+        width: 133px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .nav-menu-header a:last-child {
+        margin-right: 0;
+    }
+    /* END STYLING FOR contact.html */
+
+    /* START STYLING FOR about.html */
+    .about-sect1 header {
+        font-size: 70px;
+    }
+
+    .about-sect1 p {
+        line-height: 55px;
+        font-size: 40px;
+    }
+    /* END STYLING FOR about.html */
+}
+/* END 425px STYLING */
+
+/* START 375px STYLING */
+@media all and (max-width: 375px) {
+
+    /* START DEFAULT STYLING */
+    .header-section header {
+        font-size: xxx-large;
+        margin-top: 10px;
+    }
+
+    .header-section img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .extra-info {
+        margin-top: 10px;
+        text-transform: lowercase;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* margin-bottom: 27px; */
+    }
+
+    .menu-item p {
+        margin-bottom: 10px;
+    }
+
+    .back-to-top {
+        font-size: xx-large;
+    }
+    /* END DEFAULT STYLING */
+
+    /* START STYLING FOR index.html */
+    .index-item-text {
+        padding: 40px;
+    }
+
+    .index-item1,
+    .index-item2,
+    .index-item3,
+    .index-item4,
+    .index-item5,
+    .index-item6 {
+        padding: 80px 0;
+    }
+    /* END STYLING FOR index.html */
+
+    /* START STYLING FOR menu.html */
+    .menu-group-header {
+        font-size: 70px;
+    }
+
+    .menu-item header {
+        font-size: xxx-large;
+        text-decoration: underline;
+    }
+    /* END STYLING FOR menu.html */
+
+    /* START STYLING FOR contact.html */
+    .contact {
+        column-gap: 75px;
+    }
+
+    .contact-form div input, 
+    .contact-form div select {
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .contact-form div textarea {
+        font-size: 19px;
+    }
+
+    .contact-sect2 {
+        display: grid;
+        justify-content: center;
+        row-gap: 10px;
+        border-left: 0;
+    }
+    /* END STYLING FOR contact.html */
+}
+/* END 375px STYLING */
+
+/* START 320px STYLING */ 
+@media all and (max-width: 320px) {
+    /* START DEFAULT STYLING */
+    .header-section img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .header-section header {
+        font-size: 50px;
+        margin-top: 10px;
+    }  
+    
+    .menu-nav a {
+        font-size: xxx-large;
+    }
+    /* END DEFAULT STYLING */
+
+    /* START STYLING FOR menu.html */
+    .menu-group-header {
+        border: 2px dashed white;
+        font-size: 60px;
+        padding: 5px;
+    }
+
+    .menu-items-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-item img {
+        margin: 10px 0;
+        width: 400px;
+        max-width: 400px;
+    }
+
+    .menu-item p {
+        margin: 0;
+        font-size: xxx-large;
+    }
+
+    .extra-info p {
+        border-radius: 20px;
+        padding: 10px 15px;
+        font-size: xx-large;
+        color: black;
+        font-weight: 800;
+        align-items: center;
+        display: flex;
+    }
+    /* END STYLING FOR menu.html */
+
+    /* START STYLING FOR events.html */
+    .events-sect1-item header {
+        font-size: 90px;
+    }
+
+    .events-sect1-item p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    /* END STYLING FOR events.html */
+
+    /* START STYLING FOR contact.html */
+    .contact {
+        padding: 10px;
+    }
+
+    .submit-button-container button {
+        font-size: x-large;
+    }
+    /* END STYLING FOR contact.html */
+}
+/* END 320px STYLING */
