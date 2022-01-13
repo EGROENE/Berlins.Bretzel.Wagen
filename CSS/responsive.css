@@ -481,7 +481,6 @@
 
     .menu-group-header {
         font-size: xxx-large;
-        text-align: center;
     }
 
     .menu-item p {
@@ -607,6 +606,7 @@
     /* START STYLING FOR menu.html */
     .menu-group-header {
         font-size: 70px;
+        text-align: center;
     }
 
     .menu-item header {
