@@ -148,6 +148,7 @@
     border: 2px dashed white;
     font-size: xx-large;
     padding: 5px;
+    text-align: center;
 }
 
 .menu-item header {
