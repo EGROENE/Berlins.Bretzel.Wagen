@@ -44,7 +44,7 @@ a {
     height: 200px;
 }
 
-.header-section img:hover {
+.header-section a img:hover {
     opacity: 0.8;
     cursor: pointer;
 }
@@ -78,7 +78,7 @@ a {
 
 .header-section header {
     font-size: xx-large;
-    margin-top: 10px;
+    margin-top: 20px;
     text-transform: uppercase;
     letter-spacing: 13px;
 }
