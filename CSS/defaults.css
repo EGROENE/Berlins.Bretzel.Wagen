@@ -44,6 +44,11 @@ a {
     height: 200px;
 }
 
+.header-section img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .nav-menu-header {
     width: 75%;
     display: flex;
