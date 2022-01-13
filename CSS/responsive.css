@@ -562,6 +562,7 @@
     /* START DEFAULT STYLING */
     .header-section header {
         font-size: xxx-large;
+        margin-top: 20px;
     }
 
     .header-section img {
@@ -648,6 +649,7 @@
 
     .header-section header {
         font-size: 50px;
+        margin-top: 20px;
     }  
     
     .menu-nav a {
