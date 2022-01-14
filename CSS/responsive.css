@@ -382,14 +382,18 @@
         font-size: 50px;
     }
 
-    .events-sect1-item,
+    .events-sect1-item, 
     .events-sect1-item.img-right {
         display: flex;
         flex-direction: column;
         text-align: center;
         border-top: 2px dashed white;
-        border-bottom: 2px dashed white;
+        border-bottom: none;
         padding: 20px;
+    }
+
+    .events-sect1-item:last-of-type {
+        border-bottom: 2px dashed white;
     }
     /* END STYLING FOR events.html */
 
