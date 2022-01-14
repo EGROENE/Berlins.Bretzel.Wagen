@@ -617,6 +617,12 @@
     /* START STYLING FOR contact.html */
     .contact {
         column-gap: 75px;
+        padding: 30px;
+    }
+
+    .contact-sect1 {
+        display: flex;
+        justify-content: flex-start;
     }
 
     .contact-form div input, 
