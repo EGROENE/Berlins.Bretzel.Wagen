@@ -19,7 +19,7 @@ a {
 :root {
     --black: rgb(0,0,0);
     --red: rgb(218, 41, 28);
-    --gold: rgb(255, 205, 0);
+    --gold: #ffcd00;
     --black-gradient: rgba(0,0,0,0.5);
     --forest-green: rgb(49, 88, 49);
     --graywhite: rgb(185, 185, 185);
