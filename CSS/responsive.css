@@ -340,11 +340,6 @@
 /* START 768px STYLING */
 @media screen and (max-width: 768px) {
     /* START DEFAULT STYLING */
-    .header-section {
-        width: 768px;
-        max-width: 100%;
-    }
-    
     .nav-menu-header {
         width: 90%;
     }
