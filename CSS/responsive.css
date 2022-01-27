@@ -1,5 +1,5 @@
 /* START 2560px STYLING */
-@media (min-width: 2560px) {
+@media screen and (min-width: 2560px) {
     /* START DEFAULT STYLING */
     .header-section {
         background-color: var(--forest-green);
@@ -180,7 +180,7 @@
 /* END 2560px STYLING */
 
 /* START 1440px STYLING */
-@media (min-width: 1440px) and (max-width: 2559px) {
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
     /* START DEFAULT STYLING  */
     .header-section img {
         width: 300px;
@@ -338,7 +338,7 @@
 /* END 1440px STYLING */
 
 /* START 768px STYLING */
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* START DEFAULT STYLING */
     .header-section {
         width: 768px;
@@ -417,7 +417,7 @@
 /* END 768px STYLING */
 
 /* START 425px STYLING */
-@media all and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     /* START DEFAULT STYLING */
     .header-section img {
         width: 250px;
@@ -535,7 +535,6 @@
         font-size: 35px;
         font-weight: 800;
         letter-spacing: 2px;
-        text-transform: uppercase;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -544,6 +543,21 @@
 
     .nav-menu-header a:last-child {
         margin-right: 0;
+    }
+
+    .contact-form div input,
+    .contact-form div select {
+        padding: 5px;
+        font-size: 21px;
+    }
+
+    .contact-form div textarea {
+        font-size: 17px;
+    }
+
+    .submit-button-container button {
+        padding: 15px;
+        font-size: x-large;
     }
     /* END STYLING FOR contact.html */
 
@@ -561,7 +575,7 @@
 /* END 425px STYLING */
 
 /* START 375px STYLING */
-@media all and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 
     /* START DEFAULT STYLING */
     .header-section header {
@@ -650,7 +664,7 @@
 /* END 375px STYLING */
 
 /* START 320px STYLING */ 
-@media all and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     /* START DEFAULT STYLING */
     .header-section img {
         width: 300px;
