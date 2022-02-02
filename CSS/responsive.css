@@ -138,10 +138,19 @@
         font-size: 70px;
     }
 
+    .contact-sect1 header {
+        font-size: 60px;
+    }
+
     .contact-form div input, 
     .contact-form div select,
     .contact-form textarea {
-        font-size: 40px;
+        font-size: 50px;
+    }
+
+    .contact-form div input,
+    .contact-form div select {
+        padding: 32px;
     }
 
     .submit-button-container button {
@@ -154,9 +163,9 @@
     }
 
     .contact-map iframe {
-        margin-top: 10px;
-        height: 450px;
-        width: 730px;
+        margin-top: 25px;
+        height: 715px;
+        width: 1077px;
     }
     /* END STYLING FOR .contact.html */
 
@@ -297,6 +306,10 @@
     /* START STYLING FOR contact.html */
     .contact {
         font-size: xxx-large;
+    }
+
+    .contact-sect1 header {
+        font-size: 60px;
     }
 
     .contact-form div input, 

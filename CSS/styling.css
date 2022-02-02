@@ -266,6 +266,16 @@
 .contact-sect1 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.contact-sect1 header {
+    font-size: xx-large;
+}
+
+.contact-sect1 p {
+    font-size: smaller;
+    margin: 10px 0;
 }
 
 .contact-sect2 {
